@@ -19,6 +19,6 @@ export class AppComponent {
   assignment: string;
 
   constructor() {
-    this.assignment = 'Exercise 6.2 - Input/Output Properties, Part 1';
+    this.assignment = 'Welcome to In-N-Out-Books';
   }
 }
