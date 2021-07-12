@@ -1,0 +1,21 @@
+/*
+============================================
+; Title:  contact.component.css
+; Author: Kevin Jones
+; Date: 22 June 2021
+; Description: Contact component CSS file
+;===========================================
+*/
+
+.contact-icons {
+  font-size: 5em;
+  text-align: center;
+}
+
+.mat-card-title {
+  text-align: center;
+}
+
+.mat-card-content {
+  text-align: center;
+}

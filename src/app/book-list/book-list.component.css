@@ -1,0 +1,18 @@
+/*
+============================================
+; Title:  book-list.component.css
+; Author: Kevin Jones
+; Date: 22 June 2021
+; Description: About component CSS file
+;===========================================
+*/
+
+.isbn-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #99E2FF;
+}
+
+.isbn-link:hover {
+  text-decoration: underline;
+}

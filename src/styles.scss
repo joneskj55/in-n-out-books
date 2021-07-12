@@ -1,0 +1,19 @@
+/*
+============================================
+; Title:  styles.scss
+; Author: Kevin Jones
+; Date: 22 June 2021
+; Description: Root SCSS file
+;===========================================
+*/
+
+@import "./theme";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

@@ -1,0 +1,27 @@
+<!--
+============================================
+; Title:  book-details-dialog.component.html
+; Author: Professor Krasso
+; Modified by: Kevin Jones
+; Date: 22 June 2021
+; Description: Book details dialog component HTML file
+;===========================================
+ -->
+
+<mat-card>
+  <mat-card-title style="color: #99e2ff">{{ book.title }} </mat-card-title>
+  <br />
+  <mat-card-content>
+    <div fxLayout="column">
+      <p><em>ISBN:</em> {{ book.isbn }}</p>
+      <p><em>Description:</em> {{ book.description }}</p>
+      <p>{{ book.numOfPages }} pages</p>
+      <p><em>Author(s):</em> {{ book.authors.join(", ") }}</p>
+    </div>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <button mat-raised-button color="accent" matDialogClose="confirm">
+      OK
+    </button>
+  </mat-card-actions>
+</mat-card>

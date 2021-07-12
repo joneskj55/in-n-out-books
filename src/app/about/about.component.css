@@ -1,0 +1,17 @@
+/*
+============================================
+; Title:  about.component.css
+; Author: Kevin Jones
+; Date: 22 June 2021
+; Description: About component CSS file
+;===========================================
+*/
+
+.source {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.source:hover {
+  text-decoration: underline;
+}
