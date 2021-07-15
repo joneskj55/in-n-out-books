@@ -17,3 +17,24 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+.blue {
+  color: #2196f3;
+}
+
+.green {
+  color: #66bb6a;
+}
+
+.card-title-icon {
+  text-align: center;
+}
+
+.card-title-icon,
+.mat-icon {
+  font-size: 72px;
+}
+
+.align-center {
+  text-align: center;
+}

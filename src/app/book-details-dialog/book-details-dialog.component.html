@@ -9,10 +9,10 @@
  -->
 
 <mat-card>
-  <mat-card-title style="color: #99e2ff">{{ book.title }} </mat-card-title>
+  <mat-card-title class="blue">{{ book.title }} </mat-card-title>
   <br />
   <mat-card-content>
-    <div fxLayout="column">
+    <div fxLayout="column" class="details">
       <p><em>ISBN:</em> {{ book.isbn }}</p>
       <p><em>Description:</em> {{ book.description }}</p>
       <p>{{ book.numOfPages }} pages</p>
