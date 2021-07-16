@@ -16,3 +16,9 @@
   width: 80%;
   margin: 0 auto;
 }
+
+@media (max-width: 608px) {
+  button {
+    line-height: normal;
+  }
+}

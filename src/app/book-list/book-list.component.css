@@ -42,3 +42,12 @@
   margin-top: 2%;
   margin-left: 45%;
 }
+
+@media (max-width: 882px) {
+  .grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    padding: 25px;
+  }
+}
